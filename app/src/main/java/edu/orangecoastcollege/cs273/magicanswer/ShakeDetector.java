@@ -72,7 +72,6 @@ public class ShakeDetector implements SensorEventListener {
 
     // Define our own interface (method for other classes to implement) called onShake()
     // It's the responsibility of MagicAnswerActivity to implement this method
-
     public interface OnShakeListener {
         void onShake();
     }
